@@ -5,9 +5,7 @@ class Lemonxx < Formula
   url "https://github.com/ksherlock/lemonxx/archive/2017-07-03.tar.gz"
   sha256 "36f4f17d76d94b9ebaafca036528922b3bda9013d8a12fbd782065171d345a50"
 
-  head do
-    url "https://github.com/ksherlock/lemonxx.git"
-  end
+  head "https://github.com/ksherlock/lemonxx.git"
 
   def install
     (share/"lemon").install "lempar.c"

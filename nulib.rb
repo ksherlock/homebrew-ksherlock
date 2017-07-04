@@ -3,10 +3,7 @@ class Nulib < Formula
   homepage "http://nulib.com"
   url "https://github.com/fadden/nulib2/archive/v3.0.0.tar.gz"
   sha256 "0a0b33cf459d3b2a053f5ef6bbe9b0407cac3ab5e3f617fda06da3b6df949f85"
-
-  head do
-    url "https://github.com/fadden/nulib2.git"
-  end
+  head "https://github.com/fadden/nulib2.git"
 
   def install
     chdir "nufxlib" do
