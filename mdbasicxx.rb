@@ -2,8 +2,8 @@ class Mdbasicxx < Formula
   desc "MDBASIC++"
   homepage "https://github.com/ksherlock/mdbasicxx"
   head "https://github.com/ksherlock/mdbasicxx.git"
-  url "https://github.com/ksherlock/mdbasicxx/archive/0.0.2.tar.gz"
-  sha256 "4c64ee0a39d4e3e26e311c119605c0217b7c13b638cc93a2a4c562b93f594c8b"
+  url "https://github.com/ksherlock/mdbasicxx/archive/0.0.3.tar.gz"
+  sha256 "68e54cf26121f4f0f150d2b753a406f2bf246c5952dc7a8fdce20d6b29c5e881"
 
   def install
     ENV["GEM_HOME"] = libexec
