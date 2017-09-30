@@ -2,8 +2,8 @@
 class Lemonxx < Formula
   desc "lemon parser generator with improved c++ support"
   homepage "https://github.com/ksherlock/lemonxx/"
-  url "https://github.com/ksherlock/lemonxx/archive/2017-07-03.tar.gz"
-  sha256 "36f4f17d76d94b9ebaafca036528922b3bda9013d8a12fbd782065171d345a50"
+  url "https://github.com/ksherlock/lemonxx/archive/2017-09-30.tar.gz"
+  sha256 "768677ee7d6f03084c6d8b6aedac967fd1274a0b2b3f55567248668fe687ad2f"
 
   head "https://github.com/ksherlock/lemonxx.git"
 
