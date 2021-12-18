@@ -8,7 +8,7 @@ class Mdbasicxx < Formula
   def install
     ENV["GEM_HOME"] = libexec
     system "gem", "build", "mdbasic++.gemspec"
-    system "gem", "install", "mdbasic++-#{version}.gem"
+    system "gem", "install", "mdbasicxx-#{version}.gem"
     bin.install libexec/"bin/mdbasic++"
     bin.env_script_all_files(libexec/"bin", :GEM_HOME => ENV["GEM_HOME"])
   end
